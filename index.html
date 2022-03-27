@@ -5,18 +5,21 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="stylesheet" href="css/estilo.css" >
+		<script src="js/baixar.js"></script>
 	</head>
 	<body>
 		<div class="container" >
 			<h3>Download App</h3>
 			<div class="bin">
 				<label>Conversor Digital</label>
-				<a href="apk/Bin.apk" download="download">Baixar</a>
+				<a href="apk/Bin.apk" download="download" onclick="bin()">Baixar</a>
+				<span id="bin" ></span>
 			</div>
 			
 			<div class="roman">
 				<label>Conversor Romano</label>
-				<a href="apk/Roman.apk" download="download">Baixar</a>
+				<a href="apk/Roman.apk" download="download" onclick="roman()">Baixar</a>
+				<span id="roman" ></span>
 			</div>
 		</div>
 	</body>
