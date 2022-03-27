@@ -7,7 +7,7 @@ var id = function (id){
 		if(localStorage['baixa']==undefined){
 			localStorage['baixa']=0;
 }
-	var n=parseInt(localStorage['baixa']);localStorage['visitas']=1+n;
+	var n=parseInt(localStorage['baixa']);localStorage['baixa']=1+n;
 	var num=localStorage['baixa'];
 
 var mensagem= num ;
