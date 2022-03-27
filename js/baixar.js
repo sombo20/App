@@ -1,7 +1,4 @@
-var id = function (id){
-    return document.getElementById(id);
-  }
-  
+
  
 	if(localStorage){
 		if(localStorage['baixa']==undefined){
@@ -10,8 +7,8 @@ var id = function (id){
 	var n=parseInt(localStorage['baixa']);localStorage['baixa']=1+n;
 	var num=localStorage['baixa'];
 
-var mensagem= num ;
-id("visitas").innerHTML = mensagem
+var mensagens= num ;
+document.getElementById("visitas").innerHTML = mensagens;
 	}
 
 
